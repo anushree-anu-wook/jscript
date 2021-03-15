@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
+
+
+
+/* About */
+
+.section-heading h4 {
+    text-transform: uppercase;
+    color: #101D2C;
+    line-height: 0;
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.section-heading h1 {
+    font-family: 'Niconne', cursive;
+    color: palevioletred;
+}
+
+/* .about .btn {
+    width: 150px;
+    color: #c69963 !important;
+    transition: background-color 650ms;
+} */
+
+/* .about .btn:hover {
+    color: #fff !important;
+    background-color: #c69963;
+} */
+
+/* Menu */
+/* 
+/* Chef Section */
+.card-body h1{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'Teko', sans-serif;
+}
+
+.card-body h6{
+    font-size: 16px;
+    color:palevioletred;
+}
+

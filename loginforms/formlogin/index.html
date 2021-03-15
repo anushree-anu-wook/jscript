@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="signin">
+                <form action="#" class="form-sign-in">
+                    <h1>Sign In</h1>
+                    <input class="input" type ="text" placeholder="UserName" required/>
+                    <input type="password" placeholder="Password" required/>
+                    <a href="#">Forgot your password?</a>
+                    <button class="btn btn-form">SIGN IN</button>
+                </form>
+            </div>
+            <div class="signup">
+            <form action="" class="form-sign-up">
+                <h1>Sign Up</h1>
+             <input class="input" type ="text" placeholder="UserName" required/>
+             <input class="input" type ="email" placeholder="Email" required/>
+            <input class="input" type="password" placeholder="Password" required/> 
+            <button  class="btn btn-form">SIGN UP</button>
+            </form>
+            </div>
+            </div>
+        <div class="overlay">
+            <div class="overlay-panel overlay-signin">
+            <h1>Welcome Back!</h1>
+            <span>To keep connected with us please login with your personal info
+            </span>
+            <button class="btn btn-overlay" onclick="togglePage()">SIGN IN</button>
+            </div>
+            <div class="overlay-panel overlay-signup">
+            <h1>Hello Friend!</h1>
+            <span>Enter Your Personal Details and start journey with us</span>
+            <button class="btn btn-overlay" onclick="togglePage()">SIGN UP</button>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    function togglePage()
+    {
+        document.querySelector(".overlay-signin").classList.toggle("show");
+        document.querySelector(".overlay-signup").classList.toggle("hide");
+        document.querySelector(".signup").classList.toggle("show");
+        document.querySelector(".signin").classList.toggle("hide");
+    }
+</script>
+</html>

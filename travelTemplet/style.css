@@ -1,0 +1,338 @@
+*
+{
+    padding:2px;
+    margin: 0;
+
+}
+.header
+{
+height:100%;
+background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/banner2.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+padding-top: 30px;
+text-align: center;
+color:white;
+}
+.header img{
+    width: 80px;
+    float: left;
+    background: transparent;
+
+}
+.login-btn
+{
+    width:100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 3px solid afff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+    
+    
+}
+.about-btn
+{
+    width:100px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 3px solid afff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+    
+}
+.sub-menu-1
+{
+    display: none;
+}
+.about-btn ul li:hover .sub-menu-1
+{
+  display: block;
+  position: absolute;
+  background-color: #00ff7e;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.Blog-btn
+{
+    width:100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 3px solid afff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    margin-right: 10px; 
+}
+.trip-btn
+{
+    width:100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 3px solid afff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    margin-right: 20px;   
+}
+.home-btn
+{
+    width:100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 3px solid afff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    margin-right: 20px;    
+}
+
+.header h1{
+    padding-top: 240px;
+    padding-bottom: 0;
+    font-size: 55px;
+
+}
+.header p
+{
+    margin: 18px 0;
+
+}
+.input-group
+{
+    width:90%;
+    max-width:500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+
+}
+.form-control
+{
+    border:0 !important;
+    border-radius: 30px 0 0 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-text
+{
+width: 100px;
+background-image: linear-gradient(#00ff7e,#1f3d90);
+border: 0 !important;
+color: #fff !important;
+padding: 0 25px;
+border-radius: 30px !important;
+box-shadow: none;
+}
+
+/*features*/
+.features
+{
+    padding: 100px 0;
+
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img
+{
+width: 100%;
+}
+.price
+{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    font-weight: 600;
+    border-radius: 100%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left:20px;
+    bottom: -25px;
+}
+.feature-img
+{
+    position: relative;
+}
+.rating
+{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0px;
+    position: absolute;
+
+}
+.features .fa
+{
+font-size: 15px;
+color: #ff2264;
+}
+.feature-details 
+{
+    padding: 20px;
+    text-align: justify;
+    
+}
+.feature-details h4
+{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-details .fa
+{
+    margin-right: 5px;
+}
+.featured-box
+{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 20px;
+}
+.gallery
+{
+    padding: 100px 0;
+    background:papayawhip;
+}
+.gallery-box img
+{
+    width:220px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.gallery-box img:hover
+{
+    transform: scale(1.1);
+}
+.gallery-box h4
+{
+  display: block;
+  color: yellow;
+  text-shadow: -2px 2px 2px #000;
+  font-weight: 700;
+  font-style: italic;
+  font-size:30px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-10%,-10%);
+}
+.gallery-box
+{
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.banner
+{
+    padding-top: 11%;
+    height: 80%;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner-highlights
+{
+    padding:50px 0;
+    background:rgba(0,0,0,0.7);
+    text-align: center;
+    color: tomato;
+}
+.booking-btn
+{
+    width:120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 3px solid afff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+.Users-Feedback
+{
+    padding: 100px 0;
+}
+.User-Review
+{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+    text-align: justify;
+}
+.User-Review p{
+    padding: 50px 10px 10px 10px;;
+    color: black;
+}
+.Users-Feedback img
+{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+.User-Review p::before
+{
+  content:'\201d';
+  display: block;
+  position: absolute;
+ font-size: 100px;
+ color: #ff2264;
+ font-family: sans-serif;
+ left:44%;
+ top: -20px;
+}
+.footer
+{
+    padding: 50px 10px 15px;
+    background-image: linear-gradient(#2d557d,#9610fb);
+    color: #fff;
+}
+.footer-logo 
+{
+    width: 100px;
+    background: transparent;
+}
+.footer h3{
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.footer h4{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 20px;
+}
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+.fa-heart
+{
+    margin: 0 5px;
+    color: #f44336;
+}
+.copyright
+{
+    text-align: center;
+}

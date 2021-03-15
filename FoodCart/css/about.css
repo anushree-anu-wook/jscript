@@ -1,0 +1,45 @@
+
+body{
+    background-color: #f4f4f4;
+    margin:0;
+    padding:0;
+}
+
+ .wrapper{
+    margin: 0 auto;
+    width:100px;
+}
+
+.img-about{
+    width:500px;
+    height:300px;
+    border: 10px coral;
+   display: flex;
+   justify-content: right;
+   align-items: right;
+   top: 10px;
+   transition: all ease 1s;
+   max-height: ;
+}
+.img-about:hover{
+    transform: scale(0.8);
+}
+h1{
+    font-family: 'Patua One', cursive;
+    text-indent: 20px;
+}
+/* .content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: oblique;
+    text-align: left;
+    text-indent: 30px;
+
+}  */
+#para{
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    font-style: oblique;
+    text-align: left;
+    text-indent: 30px;
+}
